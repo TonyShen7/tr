@@ -1,19 +1,23 @@
+//class = Stack
 class Stack{
-    constructor() {
+    constructor() { //empty array 
         this.items = []
     }
-    push(element) {
+    push(element) { //how to add elements
         this.items.push(element)
     }
-    pop() {
+    pop() { //how to remove elemnts
         return this.items.pop()
     }
-    size() {
+    size() { 
         return this.items.length
     }
 }
-
-const stack1 = new Stack()
-stack1.push('Minecraft') 
+const stack1 = new Stack() //new instance of stack class
+stack1.push('Iron') 
 stack1.push('Diamonds')
+stack1.pop()
 console.log(stack1)
+stack1.push('Gold')
+console.log(stack1)
+console.log(stack1.size())
