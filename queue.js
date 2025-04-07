@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Create a queue. Add the numbers 1, 2, and 3 to the queue. Then remove one element. What elements are left in the queue?
